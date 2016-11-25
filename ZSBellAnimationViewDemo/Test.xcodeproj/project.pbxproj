@@ -7,18 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6489C081DE7CCE600628C34 /* bell.png in Resources */ = {isa = PBXBuildFile; fileRef = D6489C031DE7CCE600628C34 /* bell.png */; };
+		D6489C091DE7CCE600628C34 /* BellAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6489C051DE7CCE600628C34 /* BellAnimationView.m */; };
+		D6489C0A1DE7CCE600628C34 /* QCMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = D6489C071DE7CCE600628C34 /* QCMethod.m */; };
 		D6F1D3901DDEFDC60035BD25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F1D38F1DDEFDC60035BD25 /* main.m */; };
 		D6F1D3931DDEFDC60035BD25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F1D3921DDEFDC60035BD25 /* AppDelegate.m */; };
 		D6F1D3961DDEFDC60035BD25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F1D3951DDEFDC60035BD25 /* ViewController.m */; };
 		D6F1D3991DDEFDC60035BD25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F1D3971DDEFDC60035BD25 /* Main.storyboard */; };
 		D6F1D39B1DDEFDC60035BD25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F1D39A1DDEFDC60035BD25 /* Assets.xcassets */; };
 		D6F1D39E1DDEFDC60035BD25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F1D39C1DDEFDC60035BD25 /* LaunchScreen.storyboard */; };
-		D6F1D3AA1DDEFE470035BD25 /* BellAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F1D3A71DDEFE470035BD25 /* BellAnimationView.m */; };
-		D6F1D3AB1DDEFE470035BD25 /* QCMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F1D3A91DDEFE470035BD25 /* QCMethod.m */; };
-		D6F1D3AD1DDEFF2D0035BD25 /* bell.png in Resources */ = {isa = PBXBuildFile; fileRef = D6F1D3AC1DDEFF2D0035BD25 /* bell.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D6489C031DE7CCE600628C34 /* bell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bell.png; sourceTree = "<group>"; };
+		D6489C041DE7CCE600628C34 /* BellAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BellAnimationView.h; sourceTree = "<group>"; };
+		D6489C051DE7CCE600628C34 /* BellAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BellAnimationView.m; sourceTree = "<group>"; };
+		D6489C061DE7CCE600628C34 /* QCMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCMethod.h; sourceTree = "<group>"; };
+		D6489C071DE7CCE600628C34 /* QCMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCMethod.m; sourceTree = "<group>"; };
 		D6F1D38B1DDEFDC60035BD25 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F1D38F1DDEFDC60035BD25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D6F1D3911DDEFDC60035BD25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,11 +34,6 @@
 		D6F1D39A1DDEFDC60035BD25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6F1D39D1DDEFDC60035BD25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6F1D39F1DDEFDC60035BD25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6F1D3A61DDEFE470035BD25 /* BellAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BellAnimationView.h; sourceTree = "<group>"; };
-		D6F1D3A71DDEFE470035BD25 /* BellAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BellAnimationView.m; sourceTree = "<group>"; };
-		D6F1D3A81DDEFE470035BD25 /* QCMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCMethod.h; sourceTree = "<group>"; };
-		D6F1D3A91DDEFE470035BD25 /* QCMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCMethod.m; sourceTree = "<group>"; };
-		D6F1D3AC1DDEFF2D0035BD25 /* bell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bell.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +47,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D6489C021DE7CCE600628C34 /* ZSBellAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				D6489C031DE7CCE600628C34 /* bell.png */,
+				D6489C041DE7CCE600628C34 /* BellAnimationView.h */,
+				D6489C051DE7CCE600628C34 /* BellAnimationView.m */,
+				D6489C061DE7CCE600628C34 /* QCMethod.h */,
+				D6489C071DE7CCE600628C34 /* QCMethod.m */,
+			);
+			path = ZSBellAnimationView;
+			sourceTree = "<group>";
+		};
 		D6F1D3821DDEFDC60035BD25 = {
 			isa = PBXGroup;
 			children = (
@@ -66,7 +78,7 @@
 		D6F1D38D1DDEFDC60035BD25 /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				D6F1D3A51DDEFE470035BD25 /* AnimationView */,
+				D6489C021DE7CCE600628C34 /* ZSBellAnimationView */,
 				D6F1D3911DDEFDC60035BD25 /* AppDelegate.h */,
 				D6F1D3921DDEFDC60035BD25 /* AppDelegate.m */,
 				D6F1D3941DDEFDC60035BD25 /* ViewController.h */,
@@ -86,18 +98,6 @@
 				D6F1D38F1DDEFDC60035BD25 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D6F1D3A51DDEFE470035BD25 /* AnimationView */ = {
-			isa = PBXGroup;
-			children = (
-				D6F1D3AC1DDEFF2D0035BD25 /* bell.png */,
-				D6F1D3A61DDEFE470035BD25 /* BellAnimationView.h */,
-				D6F1D3A71DDEFE470035BD25 /* BellAnimationView.m */,
-				D6F1D3A81DDEFE470035BD25 /* QCMethod.h */,
-				D6F1D3A91DDEFE470035BD25 /* QCMethod.m */,
-			);
-			path = AnimationView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,7 +161,7 @@
 			files = (
 				D6F1D39E1DDEFDC60035BD25 /* LaunchScreen.storyboard in Resources */,
 				D6F1D39B1DDEFDC60035BD25 /* Assets.xcassets in Resources */,
-				D6F1D3AD1DDEFF2D0035BD25 /* bell.png in Resources */,
+				D6489C081DE7CCE600628C34 /* bell.png in Resources */,
 				D6F1D3991DDEFDC60035BD25 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -173,8 +173,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6F1D3AA1DDEFE470035BD25 /* BellAnimationView.m in Sources */,
-				D6F1D3AB1DDEFE470035BD25 /* QCMethod.m in Sources */,
+				D6489C091DE7CCE600628C34 /* BellAnimationView.m in Sources */,
+				D6489C0A1DE7CCE600628C34 /* QCMethod.m in Sources */,
 				D6F1D3961DDEFDC60035BD25 /* ViewController.m in Sources */,
 				D6F1D3931DDEFDC60035BD25 /* AppDelegate.m in Sources */,
 				D6F1D3901DDEFDC60035BD25 /* main.m in Sources */,
