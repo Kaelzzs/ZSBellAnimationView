@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ZSBellAnimationView"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "ZSBellAnimationView 是一个简单的 闹铃动效控件"
 
   s.description  = <<-DESC
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Kael" => "zhouzuosong_Kael@163.com" }
   s.platform     = :ios, "5.0"
-  s.source       = { :git => "https://github.com/Kaelzzs/ZSBellAnimationView.git", :tag => "s.version" }
+  s.source       = { :git => "https://github.com/Kaelzzs/ZSBellAnimationView.git", :tag => s.version }
   s.source_files  = "ZSBellAnimationView/**/*"
 
   # s.public_header_files = "Classes/**/*.h"
